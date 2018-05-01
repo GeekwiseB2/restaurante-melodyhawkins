@@ -1,0 +1,41 @@
+.navbar-default{
+  background-color: transparent;
+  border-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover{
+  color: #fff;
+  background-color: rgba(17, 17, 17, .5);
+}
+.navbar-default .navbar-nav>.other>li>a{
+  color: #fff;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+.navbar-default .navbar-nav>.other>a:hover{
+  color:#F8512F;
+  background-color: rgba(17, 17, 17, .5);
+}
+.first-slide{
+  background-image: url("../img/wood-2.jpg");
+}
+.slide-logo{
+  max-height: 300px;
+}
+.carousel-caption{
+  padding-bottom: 50px;
+}
+.carousel-inner .item{
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+}
+.second-slide{
+  background-image: url('../img/restaurant-2.jpg');
+}
+.third-slide{
+  background-image: url('../img/farm-2.jpg');
+}
+.btn-primary{
+  background-color: #F8512F;
+}
