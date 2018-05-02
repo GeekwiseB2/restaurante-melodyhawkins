@@ -8,11 +8,11 @@
   color: #fff;
   background-color: rgba(17, 17, 17, .5);
 }
-.navbar-default .navbar-nav>.other>li>a{
+.navbar-default .navbar-nav>li>a{
   color: #fff;
   text-shadow: 1px 1px 2px #0a0a0a;
 }
-.navbar-default .navbar-nav>.other>a:hover{
+.navbar-default .navbar-nav>li>a:hover{
   color:#F8512F;
   background-color: rgba(17, 17, 17, .5);
 }
