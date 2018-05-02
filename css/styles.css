@@ -36,6 +36,8 @@
 .third-slide{
   background-image: url('../img/farm-2.jpg');
 }
-.btn-primary{
+.btn-primary,
+.btn-primary:hover{
   background-color: #F8512F;
+  border-color: #F8512F;
 }
