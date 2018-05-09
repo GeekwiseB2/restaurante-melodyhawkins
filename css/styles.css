@@ -51,12 +51,14 @@ p{
   display:flex;
   align-items: center;
 }
-#our_story h1{
+#our_story h1,
+#review h1,
+#menu h1{
   font-family: 'Lobster', cursive;
   color:#F8512F;
   font-size: 6em;
   text-shadow: 1px 1px 5px #0A0A0A;
-  
+
 }
 #our_story h2{
   font-family: 'Playfair Display', serif;
@@ -71,4 +73,93 @@ p{
   font-weight: 700;
   font-size: 2em;
   margin-top: 0;
+}
+/*QUOTE*/
+#review{
+  display: flex;
+  align-items: center;
+  justify-content: center; /*to center horizontally as well*/
+  min-height: 600px;
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+#review p{
+  color: #fff;
+  font-family:'Raleway', sans-serif;
+  font-size: 2em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+#review .container{
+  background-color: rgba(20, 20, 20, 0.6);
+  padding: 10px;
+  border-radius: 5px;
+}
+/*MENU*/
+#menu{
+  background-image: url('../img/black_linen.png');
+  background-size: cover;
+  min-height: 600px;
+}
+#menu h1{
+  color: #fff;
+}
+#menu a{
+  color: #F8512F;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#menu .tab-pane .row{
+  margin: 0;
+}
+#menu .tab-content .food{
+  background-color: #fff;
+  padding:10px;
+}
+#contact{
+  background-color: #F8512F;
+  min-height: 600px;
+  color: #FFF;
+  padding-bottom:  50px;
+}
+#contact h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+  margin-top: 50px;
+}
+#contact form{
+  background-color: #FF6633;
+  border: 1px solid #fff;
+  padding: 15px;
+}
+#contact .form-group span{
+  color: #FF0D06;
+}
+.name{
+  color:#FFF;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  padding-left: 4em;
+}
+.name:hover,
+.city:hover,
+.phone:hover{
+  color: #FFF;
+  text-decoration: none;
+}
+.street,
+.city,
+.phone{
+  padding-left: 4em;
+  color:#FFF;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+}
+.map{
+  padding-left: 5em;
 }
